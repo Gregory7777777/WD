@@ -74,13 +74,37 @@
 .left-animation{
     opacity: 0;
     transform: translateX(-30%);
-    transition: transform 1.2s, opacity 2s;
+    transition: transform 1s, opacity 1.5s;
 }
 
 .right-animation{
     opacity: 0;
     transform: translateX(30%);
-    transition: transform 1.2s, opacity 1.5s;
+    transition: transform 1s, opacity 1.5s;
+}
+
+.botton-small-animation{
+    opacity: 0;
+    transform: translateY(15%);
+    transition: transform 1s, opacity 1.5s;
+}
+
+.left-small-animation{
+    opacity: 0;
+    transform: translateX(-15%);
+    transition: transform 1s, opacity 1.5s;
+}
+
+.right-small-animation{
+    opacity: 0;
+    transform: translateX(15%);
+    transition: transform 1s, opacity 1.5s;
+}
+
+.faq__animation{
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: transform 1.2s, opacity 2s;
 }
 
 .animation-show{
