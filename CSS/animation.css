@@ -79,11 +79,16 @@
 
 .preview__img-animation {
   opacity: 0;
-  right: -20%;
+  right: -15%;
   transition: right 2s, opacity 2s;
   transition-delay: 0.2s;
 }
 
+@media (max-width: 865px) {
+  .preview__img-animation {
+    right: 0;
+  }
+}
 .preview__mentor-animation {
   opacity: 0;
   right: -20%;
